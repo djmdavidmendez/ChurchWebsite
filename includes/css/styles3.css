@@ -124,8 +124,8 @@ ul.unstyled {
     margin: 0;
 }
 #myCarousel {
-	margin-top: 60px;
-	margin-bottom: 20px;
+	margin-top: 57px;
+	margin-bottom: 7px;
 }
 
 .carousel-caption {
@@ -161,7 +161,7 @@ ul.unstyled {
    Global Styles
    -------------------------------------- */
 .well {
-	margin: 20px 0;
+
 }
 .list-group .list{
     color: blue;

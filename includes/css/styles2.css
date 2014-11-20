@@ -3,7 +3,7 @@
 My Custom CSS
 =============
 
-Author:  Brad Hussey
+Author:  David Mendez
 Updated: August 2013
 Notes:	 Hand coded for Udemy.com
 
@@ -109,14 +109,13 @@ ul.unstyled {
     body
    -------------------------------------- */
 body {
-    background: black;
-    color: white;
+   
 }
 /* --------------------------------------
    Carousel
    -------------------------------------- */
 #carousel-background {
-    background: blue;
+    background: #1A0044;
     margin: 0;
 }
 #myCarousel {
