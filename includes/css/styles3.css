@@ -40,10 +40,10 @@ footer {
 body {
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
-	
+	background-color:;
 }
 
- .well .page-header {
+.well .page-header {
 	margin-top: 0;
 	
 }
@@ -60,9 +60,8 @@ ul.unstyled {
    -------------------------------------- */
 
 .navbar {
-    background-color: #40439B;
-    
-    
+    /*background-color: #40439B #EF8700;*/
+    background-color: #E4A400;    
 }
 .navbar-nav a{
     color: white;
@@ -74,14 +73,14 @@ ul.unstyled {
 
 .navbar-brand {
     padding: 5px 15px;
-    color: white;
+    color: black;
     text-align: center;
     
 
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
-    color: white;
+    color: black;
 }
 /* --------------------------------------
     navbar-nav 
@@ -89,13 +88,15 @@ ul.unstyled {
 .navbar-nav > .active >a,
 .navbar-nav > .active > a:hover,
 .navbar-nav > .active > a:focus {
-    color: white;
-    background-color: #393A8C;
+    color: black;
+    /*background-color: #393A8C;*/
+    background-color: #EF8700;
+    
 }
 .navbar-nav > li > a,
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus {
-    color: white;
+    color: black;
 }
 /* --------------------------------------
     navbar-toggle
@@ -124,8 +125,8 @@ ul.unstyled {
     margin: 0;
 }
 #myCarousel {
-	margin-top: 57px;
-	margin-bottom: 7px;
+	margin-top: 70px;
+	margin-bottom: 20px;
 }
 
 .carousel-caption {
@@ -150,13 +151,36 @@ ul.unstyled {
 /* --------------------------------------
    Feature panels
    -------------------------------------- */
+.thumbnail {
+	background-color:#1A0044;
+	color: white;
+}
+.panel-title {
+	color: #EF8700;
+}
+#welcoming-text {
+	background-color:;
+	margin-top: 5px; 
+}
+#welcoming-text small {
+	
+}
+.feature-background {
+	text-align: center;
+}
 .panel-heading {
 	background-color: #393A8C ;
 	color: white;
-	
 }
-
-
+#featuresHeading {
+	background-color:aqua;
+	text-align: center;
+}
+#mas-informacion-heading{
+	text-align: center;
+	background-color: #393A8C;
+	color: white;
+}
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
