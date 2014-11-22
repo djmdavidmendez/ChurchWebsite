@@ -80,7 +80,7 @@ ul.unstyled {
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
-    color: black;
+    color: white;
 }
 /* --------------------------------------
     navbar-nav 
@@ -94,9 +94,11 @@ ul.unstyled {
     
 }
 .navbar-nav > li > a,
-.navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus {
     color: black;
+}
+.navbar-nav > li > a:hover {
+	color: white;
 }
 /* --------------------------------------
     navbar-toggle
@@ -151,6 +153,10 @@ ul.unstyled {
 /* --------------------------------------
    Feature panels
    -------------------------------------- */
+ #company-name-heading{
+ 	margin: 20px 0px;
+ 	color: black;
+ }
 .thumbnail {
 	background-color:#1A0044;
 	color: white;
@@ -158,23 +164,12 @@ ul.unstyled {
 .panel-title {
 	color: #EF8700;
 }
-#welcoming-text {
-	background-color:;
-	margin-top: 5px; 
-}
-#welcoming-text small {
-	
-}
 .feature-background {
 	text-align: center;
 }
 .panel-heading {
 	background-color: #393A8C ;
 	color: white;
-}
-#featuresHeading {
-	background-color:aqua;
-	text-align: center;
 }
 #mas-informacion-heading{
 	text-align: center;
