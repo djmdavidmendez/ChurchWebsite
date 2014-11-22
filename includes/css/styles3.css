@@ -40,7 +40,6 @@ footer {
 body {
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
-	background-color:;
 }
 
 .well .page-header {
@@ -60,7 +59,7 @@ ul.unstyled {
    -------------------------------------- */
 
 .navbar {
-    /*background-color: #40439B #EF8700;*/
+    /*background-color: #40439B #EF8700;#E4A400*/
     background-color: #E4A400;    
 }
 .navbar-nav a{
@@ -75,8 +74,6 @@ ul.unstyled {
     padding: 5px 15px;
     color: black;
     text-align: center;
-    
-
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -123,7 +120,7 @@ ul.unstyled {
 	color: white;
 }
 #carousel-background {
-    background: #1A0044;
+    background: #0E0024;
     margin: 0;
 }
 #myCarousel {
@@ -160,6 +157,7 @@ ul.unstyled {
 .thumbnail {
 	background-color:#1A0044;
 	color: white;
+	margin: 15px 0px;
 }
 .panel-title {
 	color: #EF8700;
@@ -173,8 +171,8 @@ ul.unstyled {
 }
 #mas-informacion-heading{
 	text-align: center;
-	background-color: #393A8C;
-	color: white;
+	background-color: #EF8700;
+	color: black;
 }
 /* --------------------------------------
    Global Styles
