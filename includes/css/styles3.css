@@ -28,12 +28,6 @@ Notes:	 Hand coded for Udemy.com
 
 	
 }
-footer {
-    background: #333;
-    color: #eee;
-    font-size: 11px;
-    padding: 20px;
-}
 /* --------------------------------------
    Typography
    -------------------------------------- */
@@ -59,7 +53,7 @@ ul.unstyled {
    -------------------------------------- */
 
 .navbar {
-    /*background-color: #40439B #EF8700;#E4A400*/
+    /*background-color: #40439B #EF8700;#E4A400 #0D2A7F(blue)*/
     background-color: #E4A400;    
 }
 .navbar-nav a{
@@ -72,37 +66,46 @@ ul.unstyled {
 
 .navbar-brand {
     padding: 5px 15px;
-    color: black;
+    color: white;
     text-align: center;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
-    color: white;
+    color: black;
+    
 }
 /* --------------------------------------
     navbar-nav 
    -------------------------------------- */
 .navbar-nav > .active >a,
-.navbar-nav > .active > a:hover,
 .navbar-nav > .active > a:focus {
-    color: black;
+    color: white;
     /*background-color: #393A8C;*/
     background-color: #EF8700;
-    
+}
+.navbar-nav > .active > a:hover {
+	color: black;
+	background: #EF8700;
 }
 .navbar-nav > li > a,
 .navbar-nav > li > a:focus {
-    color: black;
+    color: white;
 }
 .navbar-nav > li > a:hover {
-	color: white;
+	background-color: #EF8700;
+	opacity: .7;
+	color: black;
+	
 }
 /* --------------------------------------
     navbar-toggle
    -------------------------------------- */
+.navbar-toggle {
+	background-color: #EF8700;
+}
 .navbar-toggle:hover,
 .navbar-toggle:focus {
-    background-color: #393A8C;
+    background-color: #EF8700;
 }
 .navbar-nav .navbar-toggle .icon-bar {
     background-color: black;
@@ -161,18 +164,20 @@ ul.unstyled {
 }
 .panel-title {
 	color: #EF8700;
+ 
 }
 .feature-background {
 	text-align: center;
 }
 .panel-heading {
-	background-color: #393A8C ;
+	/*background-color: #393A8C ;*/
+	background-color: #393A8C;
 	color: white;
 }
 #mas-informacion-heading{
 	text-align: center;
 	background-color: #EF8700;
-	color: black;
+	color: white;
 }
 /* --------------------------------------
    Global Styles
@@ -185,6 +190,24 @@ ul.unstyled {
 }
 hr {
     color: #393A8C;
+}
+/* --------------------------------------
+   Footer
+   -------------------------------------- */
+footer h6 {
+	color: #546146;
+}
+footer {
+    background: #E4A400;
+    color: white;
+    font-size: 11px;
+    padding: 20px;
+}
+footer a{
+	color: white;
+}
+footer a:hover{
+	color:#990099;
 }
 /* --------------------------------------
    Media Queries
